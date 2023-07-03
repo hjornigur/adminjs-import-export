@@ -1,6 +1,6 @@
 {
-  "name": "@adminjs/import-export",
-  "version": "2.0.2",
+  "name": "adminjs-import-export-custom",
+  "version": "2.0.3",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
   "private": false,
@@ -20,23 +20,25 @@
     }
   },
   "peerDependencies": {
-    "@adminjs/design-system": "^3.1.0",
-    "adminjs": "^6.0.0"
+    "@adminjs/design-system": "^3.1.8",
+    "adminjs": "^6.8.7"
   },
   "devDependencies": {
-    "@adminjs/design-system": "^3.1.0",
+    "@adminjs/design-system": "^3.1.8",
     "@adminjs/express": "^4.0.1",
+    "@adminjs/mongoose": "^2.0.0",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@semantic-release/git": "^9.0.0",
     "@types/express": "^4.17.9",
     "@types/jest": "^26.0.15",
     "@types/json2csv": "^5.0.1",
+    "@types/mongoose": "^5.7.37",
     "@types/xml": "^1.0.5",
     "@types/xml2js": "^0.4.5",
     "@typescript-eslint/eslint-plugin": "^4.6.0",
     "@typescript-eslint/parser": "^4.6.0",
-    "adminjs": "^6.0.0",
+    "adminjs": "^6.8.7",
     "date-fns": "^2.16.1",
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
@@ -48,19 +50,17 @@
     "express-session": "^1.17.2",
     "husky": "^4.3.0",
     "jest": "^26.6.1",
+    "mongoose": "^5.10.11",
     "prettier": "^2.7.1",
     "semantic-release": "^17.2.2",
     "ts-jest": "^26.4.3",
     "ts-node": "^9.0.0",
-    "typescript": "^4.0.5"
+    "typescript": "^4.1.0"
   },
   "dependencies": {
-    "@adminjs/mongoose": "^2.0.0",
-    "@types/mongoose": "^5.7.37",
     "csvtojson": "^2.0.10",
     "file-saver": "^2.0.2",
     "json2csv": "^5.0.3",
-    "mongoose": "^5.10.11",
     "xml": "^1.0.1",
     "xml2js": "^0.4.23"
   }
